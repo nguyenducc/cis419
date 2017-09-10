@@ -6,6 +6,8 @@ The class website for CIS419 is located here: <http://www.seas.upenn.edu/~cis519
 
 ### Assignment 1
 
+#### Installation
+
 Required software for the first assignment can be found here:
 
 - Python 2.7.x <https://www.python.org/downloads/>
@@ -13,4 +15,21 @@ Required software for the first assignment can be found here:
 - numpy <http://www.numpy.org/>
 - scipy <http://www.scipy.org/>
 
-Per the instructions, begin with Python and then scikit-learn, which contains instructions for numpy and scipy. Please see the README.md file inside each folder for details about the assignment work.
+On my Win10 x64 machine the easiest thing to do was install (Anaconda)[https://www.anaconda.com/distribution/], which includes Pythin 2.7 as well as SciPy and Numpy.  Then at the Anaconda Prompt (Run as Administrator), I entered the command on the `scikit-learn` (install page)[http://scikit-learn.org/stable/install.html]: 
+
+```
+conda install scikit-learn
+```
+
+I then copied the text of Eric's test code, as follows, at the interpreter:
+
+```
+from sklearn import tree
+
+X = [[0,0], [2,2]]
+y = [0.5, 2.5]
+
+clf = tree.DecisionTreeRegressor()
+clf = clf.fit(X,y)
+clf.predict([[1,1]])
+```
