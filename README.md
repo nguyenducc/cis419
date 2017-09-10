@@ -4,6 +4,10 @@ This repository contains homework assignment work for CIS419/519 at UPenn in Fal
 
 The class website for CIS419 is located here: <http://www.seas.upenn.edu/~cis519/fall2017/>
 
+### Google Python Class
+
+As recommended on the CIS419 course webpage, included in the `google-python-exercises` folder is an unzip of files to work through the [Google Python Class](https://developers.google.com/edu/python/).  This was useful for learning basic syntax and expressions for Python. There are videos of the class, but they are ~ 1 hour each and it's easier to just read the material.
+
 ### Assignment 1
 
 #### Installation
@@ -32,4 +36,4 @@ y = [0.5, 2.5]
 clf = tree.DecisionTreeRegressor()
 clf = clf.fit(X,y)
 clf.predict([[1,1]])
-```
+``` 
