@@ -15,7 +15,7 @@ Required software for the first assignment can be found here:
 - numpy <http://www.numpy.org/>
 - scipy <http://www.scipy.org/>
 
-On my Win10 x64 machine the easiest thing to do was install (Anaconda)[https://www.anaconda.com/distribution/], which includes Pythin 2.7 as well as SciPy and Numpy.  Then at the Anaconda Prompt (Run as Administrator), I entered the command on the `scikit-learn` (install page)[http://scikit-learn.org/stable/install.html]: 
+On my Win10 x64 machine the easiest thing to do was install [Anaconda](https://www.anaconda.com/distribution/), which includes Pythin 2.7 as well as SciPy and Numpy.  Then at the Anaconda Prompt (Run as Administrator), I entered the command on the `scikit-learn` [install page](http://scikit-learn.org/stable/install.html): 
 
 ```
 conda install scikit-learn
